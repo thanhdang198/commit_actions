@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Create sample file with just timestamp
-        run: echo %time% >> report.txt
+        run: echo %TIME% >> report.txt
       - name: Commit file
         run: |
           git config --global user.name 'thanhdang198'
